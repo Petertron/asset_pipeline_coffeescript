@@ -3,7 +3,6 @@
     <name>Asset Pipeline CoffeeScript Compiler</name>
     <description>A plugin for the Asset Pipeline extension.</description>
     <repo type="github">https://github.com/Petertron/asset_pipeline_coffeescript</repo>
-    <!--<url type="discuss">http://symphony-cms.com/discuss/thread/</url>-->
     <types>
         <type>Other</type>
     </types>
@@ -14,6 +13,9 @@
         </author>
     </authors>
     <releases>
+        <release version="0.2.0" date="2016-12-20" min="2.5.0" max="2.7.0">
+            - Update CoffeeScript to version 1.12.2.
+        </release>
         <release version="0.1.0" date="2016-07-06" min="2.5.0" max="2.7.0">
             - First release.
         </release>

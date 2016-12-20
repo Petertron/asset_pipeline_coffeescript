@@ -13,7 +13,8 @@ class extension_asset_pipeline_coffeescript extends Extension
         );
     }
 
-    function register($context) {
+    function register($context)
+    {
         $context['plugins']['coffee'] = array('output_type' => 'js', 'driver' => $this);
     }
 
