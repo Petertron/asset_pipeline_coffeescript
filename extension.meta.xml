@@ -2,17 +2,21 @@
 <extension id="asset_pipeline_coffeescript" status="released" xmlns="http://getsymphony.com/schemas/extension/1.0">
     <name>Asset Pipeline CoffeeScript Compiler</name>
     <description>A plugin for the Asset Pipeline extension.</description>
-    <repo type="github">https://github.com/Petertron/asset_pipeline_coffeescript</repo>
+    <repo type="github">https://github.com/petertron/asset_pipeline_coffeescript</repo>
     <types>
         <type>Other</type>
     </types>
     <authors>
         <author>
-            <name github="Petertron" symphony="Petertron">Peter Skirenko</name>
+            <name github="petertron" symphony="Petertron">Peter Skirenko</name>
             <website>http://www.getsymphony.com/get-involved/member/Petertron/</website>
         </author>
     </authors>
     <releases>
+        <release version="0.2.1" date="2017-03-04" min="2.5.0" max="2.7.0">
+            - Compatibility with Asset Pipeline version 0.2.
+            - CoffeeScript updated to version 1.12.4.
+        </release>
         <release version="0.2.0" date="2016-12-20" min="2.5.0" max="2.7.0">
             - Update CoffeeScript to version 1.12.2.
         </release>
