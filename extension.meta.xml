@@ -13,6 +13,9 @@
         </author>
     </authors>
     <releases>
+        <release version="0.2.2" date="2017-9-11" min="2.5.0" max="2.7.0">
+            - CoffeeScript updated to version 1.12.7.
+        </release>
         <release version="0.2.1" date="2017-03-04" min="2.5.0" max="2.7.0">
             - Compatibility with Asset Pipeline version 0.2.
             - CoffeeScript updated to version 1.12.4.
